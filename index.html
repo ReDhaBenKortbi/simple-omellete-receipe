@@ -1,236 +1,148 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A simple omelette recipe" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script defer src="tailwind.config.js"></script>
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="styles.css" />
-
-    <title>Frontend Mentor | Recipe page</title>
-  </head>
-  <body class="bg-neutral-eggshell w-full min-h-screen">
-    <main class="container mx-auto bg-neutral-white rounded-2xl lg:my-10">
-      <!--Hero Image-->
-      <figure class="w-full lg:p-16">
-        <img
-          src="https://redha.b-cdn.net/image-omelette.webp"
-          alt="hero image for an omellete"
-          class="object-fit lg:rounded-lg w-full"
-          height="600"
-          width="1312"
-        />
-      </figure>
-      <section class="px-6 lg:px-16 my-8 lg:my-16">
-        <h1
-          class="capitalize text-4xl lg:text-7xl young-serif-regular font-bold text-neutral-darkCharcoal mt-12 mb-8 lg:mb-12"
-        >
-          simple omellete recipe
-        </h1>
-        <p
-          class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal"
-        >
-          An easy and quick dish, perfect for any meal. This classic omelette
-          combines beaten eggs cooked to perfection, optionally filled with your
-          choice of cheese, begetables, or meats.
-        </p>
-        <div class="bg-neutral-roseWhite rounded-lg p-5 lg:p-8 mt-8 lg:my-12">
-          <h1
-            class="text-2xl lg:text-3xl text-primary-darkRaspberry font-semibold outfit-font mb-4 lg:mb-8"
-          >
-            Preparation time
-          </h1>
-          <ul class="list-disc list-inside space-y-2 ml-5 lg:ml-10">
-            <li class="font-bold outfit-font paragraph-typo">
-              Total:
-              <span
-                class="ml-1 font-normal outfit-font paragraph-typo capitalize"
-                >approximately 10 minutes</span
-              >
-            </li>
-            <li class="font-bold outfit-font paragraph-typo">
-              Preparation:
-              <span class="ml-1 font-normal capitalize">5 minutes</span>
-            </li>
-            <li class="font-bold outfit-font paragraph-typo">
-              Cooking:
-              <span class="ml-1 font-normal capitalize">5 minutes</span>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!--Ingredients-->
-      <section class="px-6 lg:px-16 my-8 lg:my-16">
-        <h1
-          class="young-serif-regular font-normal sub__head-typo text-primary-nutmeg mb-5 lg:mb-12"
-        >
-          Ingredients
-        </h1>
-        <ul class="list-disc list-outside ml-5 space-y-2 lg:ml-10">
-          <li class="pl-5 paragraph-typo font-normal outfit-font capitalize">
-            2-3 large eggs
-          </li>
-          <li class="pl-5 paragraph-typo font-normal outfit-font capitalize">
-            Salt, to taset
-          </li>
-          <li class="pl-5 paragraph-typo font-normal outfit-font capitalize">
-            pepper, to taset
-          </li>
-          <li class="pl-5 paragraph-typo font-normal outfit-font capitalize">
-            1 tablespoon of butter or oil
-          </li>
-          <li class="pl-5 paragraph-typo font-normal outfit-font capitalize">
-            optional fillings: cheese, diced, vegetables, cooked meats, herbs
-          </li>
-        </ul>
-      </section>
-      <hr class="mt-8" />
-      <!--Instructions-->
-
-      <section class="px-6 lg:px-16 my-8 lg:my-16">
-        <h1
-          class="young-serif-regular font-normal sub__head-typo text-primary-nutmeg mb-5 lg:my-12"
-        >
-          Instructions
-        </h1>
-        <ul
-          class="list-decimal list-outside paragraph-typo space-y-2 lg:space-y-5 outfit-font ml-5 lg:ml-10"
-        >
-          <li class="pl-5 font-semibold">
-            Beat the eggs:
-            <span class="font-normal"
-              >in a bowl, beat the eggs with a pinch of salt and pepper until
-              they are well mixed. You can add a tablespoon of water or milk for
-              a fulffer texture.</span
-            >
-          </li>
-          <li class="pl-5 font-semibold">
-            Heat the pan:
-            <span class="font-normal"
-              >Place a non-stick frying pan over medium heat and add butter or
-              oil</span
-            >
-          </li>
-          <li class="pl-5 font-semibold">
-            cook the omlette:
-            <span class="font-normal"
-              >once the butter is melted and bubbling, pour in the eggs. Tilt
-              the pan to ensure the eggs evenly coat the surface.</span
-            >
-          </li>
-          <li class="pl-5 font-semibold">
-            add fillings (optional):
-            <span class="font-normal"
-              >as the omelette continues to cook, carefully lift one edge and
-              fold it over the fillings. Let it cook for another minute, then
-              slide it onto a plate</span
-            >
-          </li>
-          <li class="pl-5 font-semibold">
-            fold and serve:
-            <span class="font-normal"
-              >as the omelette continues to cook, carefully lift one edge and
-              fold it over the fillings. Let it cook for another minute, then
-              slide it onto a plate</span
-            >
-          </li>
-          <li class="pl-5 font-semibold">
-            enjoy:
-            <span class="font-normal"
-              >serve hot, with additional salt and pepper if needed.</span
-            >
-          </li>
-        </ul>
-      </section>
-      <hr class="mt-8" />
-      <!--Nutritions-->
-
-      <section class="px-6 lg:px-16 my-8 lg:my-16">
-        <h1
-          class="young-serif-regular font-normal sub__head-typo text-primary-nutmeg mb-5 lg:mb-12"
-        >
-          Nutrition
-        </h1>
-        <p
-          class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal"
-        >
-          The table below shows nutritional values per serving without the
-          additional fillings.
-        </p>
-
-        <!-- Table -->
-        <table class="w-full mt-5 lg:mt-12 table-fixed">
-          <tr class="border-b border-neutral-lightGrey">
-            <td
-              class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal"
-            >
-              Calories
-            </td>
-            <td
-              class="outfit-font font-normal paragraph-typo text-primary-nutmeg p-3 font-semibold"
-            >
-              227kcal
-            </td>
-          </tr>
-          <tr class="border-b border-neutral-lightGrey">
-            <td
-              class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal"
-            >
-              Carbs
-            </td>
-            <td
-              class="outfit-font font-normal paragraph-typo text-primary-nutmeg p-3 font-semibold"
-            >
-              0g
-            </td>
-          </tr>
-          <tr class="border-b border-neutral-lightGrey">
-            <td
-              class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal"
-            >
-              Protein
-            </td>
-            <td
-              class="outfit-font font-normal paragraph-typo text-primary-nutmeg p-3 font-semibold"
-            >
-              20g
-            </td>
-          </tr>
-          <tr>
-            <td
-              class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal"
-            >
-              Fat
-            </td>
-            <td
-              class="outfit-font font-normal paragraph-typo text-primary-nutmeg p-3 font-semibold"
-            >
-              22g
-            </td>
-          </tr>
-        </table>
-      </section>
-      <!--footer-->
-      <footer
-        class="w-full outfit-font text-center py-5 lg:py-8 bg-primary-darkRaspberry text-neutral-white paragraph-typo font-normal rounded-b-2xl"
-      >
-        Challenge by
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-          target="_blank"
-          class="underline"
-          ><em>Frontend Mentor</em></a
-        >. Coded by <a href="#"><strong>"Redha Benkortbi"</strong></a
-        >.
-      </footer>
-    </main>
-  </body>
+<!doctype html>
+<html lang=en dir=ltr>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="A simple omelette recipe">
+<script src=https://cdn.tailwindcss.com></script>
+<script defer src=tailwind.config.js></script>
+<link rel=icon type=image/png sizes=32x32 href=./assets/images/favicon-32x32.png>
+<link rel=stylesheet href=styles.css>
+<title>Frontend Mentor | Recipe page</title>
+</head>
+<body class="bg-neutral-eggshell w-full min-h-screen">
+<main class="container mx-auto bg-neutral-white rounded-2xl lg:my-10">
+<figure class="w-full lg:p-16">
+<img src=https://redha.b-cdn.net/image-omelette.webp alt="hero image for an omellete" class="object-fit lg:rounded-lg w-full" height=600 width=1312>
+</figure>
+<section class="px-6 lg:px-16 my-8 lg:my-16">
+<h1 class="capitalize text-4xl lg:text-7xl young-serif-regular font-bold text-neutral-darkCharcoal mt-12 mb-8 lg:mb-12">
+simple omellete recipe
+</h1>
+<p class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal">
+An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, begetables, or meats.
+</p>
+<div class="bg-neutral-roseWhite rounded-lg p-5 lg:p-8 mt-8 lg:my-12">
+<h1 class="text-2xl lg:text-3xl text-primary-darkRaspberry font-semibold outfit-font mb-4 lg:mb-8">
+Preparation time
+</h1>
+<ul class="list-disc list-inside space-y-2 ml-5 lg:ml-10">
+<li class="font-bold outfit-font paragraph-typo">
+Total:
+<span class="ml-1 font-normal outfit-font paragraph-typo capitalize">approximately 10 minutes</span>
+</li>
+<li class="font-bold outfit-font paragraph-typo">
+Preparation:
+<span class="ml-1 font-normal capitalize">5 minutes</span>
+</li>
+<li class="font-bold outfit-font paragraph-typo">
+Cooking:
+<span class="ml-1 font-normal capitalize">5 minutes</span>
+</li>
+</ul>
+</div>
+</section>
+<section class="px-6 lg:px-16 my-8 lg:my-16">
+<h1 class="young-serif-regular font-normal sub__head-typo text-primary-nutmeg mb-5 lg:mb-12">
+Ingredients
+</h1>
+<ul class="list-disc list-outside ml-5 space-y-2 lg:ml-10">
+<li class="pl-5 paragraph-typo font-normal outfit-font capitalize">
+2-3 large eggs
+</li>
+<li class="pl-5 paragraph-typo font-normal outfit-font capitalize">
+Salt, to taset
+</li>
+<li class="pl-5 paragraph-typo font-normal outfit-font capitalize">
+pepper, to taset
+</li>
+<li class="pl-5 paragraph-typo font-normal outfit-font capitalize">
+1 tablespoon of butter or oil
+</li>
+<li class="pl-5 paragraph-typo font-normal outfit-font capitalize">
+optional fillings: cheese, diced, vegetables, cooked meats, herbs
+</li>
+</ul>
+</section>
+<hr class=mt-8>
+<section class="px-6 lg:px-16 my-8 lg:my-16">
+<h1 class="young-serif-regular font-normal sub__head-typo text-primary-nutmeg mb-5 lg:my-12">
+Instructions
+</h1>
+<ul class="list-decimal list-outside paragraph-typo space-y-2 lg:space-y-5 outfit-font ml-5 lg:ml-10">
+<li class="pl-5 font-semibold">
+Beat the eggs:
+<span class=font-normal>in a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fulffer texture.</span>
+</li>
+<li class="pl-5 font-semibold">
+Heat the pan:
+<span class=font-normal>Place a non-stick frying pan over medium heat and add butter or oil</span>
+</li>
+<li class="pl-5 font-semibold">
+cook the omlette:
+<span class=font-normal>once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</span>
+</li>
+<li class="pl-5 font-semibold">
+add fillings (optional):
+<span class=font-normal>as the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate</span>
+</li>
+<li class="pl-5 font-semibold">
+fold and serve:
+<span class=font-normal>as the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate</span>
+</li>
+<li class="pl-5 font-semibold">
+enjoy:
+<span class=font-normal>serve hot, with additional salt and pepper if needed.</span>
+</li>
+</ul>
+</section>
+<hr class=mt-8>
+<section class="px-6 lg:px-16 my-8 lg:my-16">
+<h1 class="young-serif-regular font-normal sub__head-typo text-primary-nutmeg mb-5 lg:mb-12">
+Nutrition
+</h1>
+<p class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal">
+The table below shows nutritional values per serving without the additional fillings.
+</p>
+<table class="w-full mt-5 lg:mt-12 table-fixed">
+<tr class="border-b border-neutral-lightGrey">
+<td class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal">
+Calories
+</td>
+<td class="outfit-font font-normal paragraph-typo text-primary-nutmeg p-3 font-semibold">
+227kcal
+</td>
+</tr>
+<tr class="border-b border-neutral-lightGrey">
+<td class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal">
+Carbs
+</td>
+<td class="outfit-font font-normal paragraph-typo text-primary-nutmeg p-3 font-semibold">
+0g
+</td>
+</tr>
+<tr class="border-b border-neutral-lightGrey">
+<td class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal">
+Protein
+</td>
+<td class="outfit-font font-normal paragraph-typo text-primary-nutmeg p-3 font-semibold">
+20g
+</td>
+</tr>
+<tr>
+<td class="paragraph-typo outfit-font text-neutral-darkCharcoal font-normal">
+Fat
+</td>
+<td class="outfit-font font-normal paragraph-typo text-primary-nutmeg p-3 font-semibold">
+22g
+</td>
+</tr>
+</table>
+</section>
+<footer class="w-full outfit-font text-center py-5 lg:py-8 bg-primary-darkRaspberry text-neutral-white paragraph-typo font-normal rounded-b-2xl">
+Challenge by
+<a href="https://www.frontendmentor.io?ref=challenge" target=_blank class=underline><em>Frontend Mentor</em></a>. Coded by <a href=#><strong>"Redha Benkortbi"</strong></a>.
+</footer>
+</main>
+</body>
 </html>
